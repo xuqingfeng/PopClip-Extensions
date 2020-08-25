@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Image File</key>
+			<string>jwt.png</string>
+			<key>After</key>
+			<string>copy-result</string>
+			<key>Script Interpreter</key>
+			<string>/usr/bin/ruby</string>
+			<key>Shell Script File</key>
+			<string>decodeJWT.rb</string>
+			<key>Title</key>
+			<string>DecodeJWT</string>
+		</dict>
+	</array>
+	<key>Credits</key>
+	<array>
+		<dict>
+			<key>Link</key>
+			<string>https://github.com/xuqingfeng</string>
+			<key>Name</key>
+			<string>Qingfeng Xu</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Decode JWT Token</string>
+	<key>Extension Identifier</key>
+	<string>com.xuqingfeng.popclip.extension.decodejwt</string>
+	<key>Extension Name</key>
+	<string>DecodeJWT</string>
+	<key>Version</key>
+	<integer>1</integer>
+</dict>
+</plist>
